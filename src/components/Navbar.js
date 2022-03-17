@@ -1,13 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import logo from "../Logo12.png";
-
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar navbar-dark bg-primary">
       <div className="container">
-        <a className="navbar-brand" href="#">
-          <img className="logo" src={logo} alt="" />
+        <a class="navbar-brand" href="#">Victor Kiprono
         </a>
         <button
           className="navbar-toggler"

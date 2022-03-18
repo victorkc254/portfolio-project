@@ -5,7 +5,8 @@ import { faBootstrap, faSearchengin, faReact,faGoogle } from "@fortawesome/free-
 
 export const Services = () => {
   return (
-    <div className="services">
+    <div id="services" className="services">
+      <h1>My Services</h1>
       <div className="py-5">
         <div className="container">
           <div className="row">

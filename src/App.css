@@ -40,16 +40,17 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap);
 :root {
     --primary-white: #fff;
-    --primary-orange: #f9ab00;
-    --primary-light-grey: #f4f4f4;
-    --primary-grey: #ccd1d9;
-    --primary-dark-grey: #666666;
-    --primary-dark: rgb(52, 58, 64);
-    --primary-red: #ef4035;
-    --primary-hover-red: #f33501;
-    --primary-blue: #67ceee;
-    --primary-dark: #e1d9d1;
-    --primary-transparent-black: rgb(0, 0, 0, 0.7);
+  --primary-light-grey: #f4f4f4;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgb(52, 58, 64);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+  --primary-black: #000000;
+  --primary-transparent-black: rgba(0,0,0,0.7);
+  --primary-green: green;
+  --primary-blue: #67ceee;
 }
 
 body {
@@ -81,11 +82,11 @@ nav ul li {
 .navbar-brand {
     max-width: 17.25rem;
     padding: 0 !important;
-    height: 6rem !important;
+    height: 5rem !important;
 }
 
 .navbar-nav>li>a.active,
-.navbar-nav>li>a.active:focus {
+.navbar-nav>li>a:focus {
     border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -101,7 +102,7 @@ nav ul li {
     background: url(bg1.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
 }
 
 .main-info {
@@ -195,7 +196,8 @@ nav ul li {
 }
 
 .services h1 {
-    color: var(--primary-dark);
+    color: var(--primary-blue);
+    padding: 3rem 0;
     text-transform: uppercase;
 }
 
@@ -395,7 +397,8 @@ nav ul li {
 }
 
 .popupbox-wrapper {
-    margin-top: 7rem;
+    margin-top: 12rem;
+    margin-bottom: 5rem;
 }
 
 
@@ -426,7 +429,7 @@ nav ul li {
 
 @media (max-height: 570px) {
     .popupbox-wrapper {
-        height: 100%;
+        height: 90%;
     }
     .portfolio-image-popupbox {
         width: 50%;
@@ -511,18 +514,18 @@ nav ul li {
 
 /************************ CONTACTS COMPONENT *********************************/
 
-.contacts {
+.Contacts {
     background: var(--primary-dark);
     padding: 3rem 0;
 }
 
-.contacts h1 {
-    color: var(--primary-orange);
+.Contacts h1 {
+    color: var(--primary-blue);
     padding: 1.3rem 0;
     text-transform: uppercase;
 }
 
-.contacts p {
+.Contacts p {
     color: var(--primary-light-grey);
     font-size: 1.2rem;
 }
@@ -530,34 +533,33 @@ nav ul li {
 
 /*------------------ INPUTS -------------------------------*/
 
-.contacts input,
-.contacts textarea {
-    width: 100%;
-    box-sizing: border-box;
-    background: none;
-    resize: none;
-    border: 0;
-    border-bottom: 0.125rem solid var(--primary-dark-grey);
-    border-radius: 0;
-    color: var(--primary-orange);
-    outline: 0 !important;
-    box-shadow: none !important;
-    margin-bottom: 1rem;
-    padding-left: 0 !important;
+.Contacts input,
+.Contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-dark-grey);
+  border-radius: 0;
+  color: var(--primary-orange);
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
 }
 
-.contacts .container {
+.Contacts .Container {
     padding: 4rem 0;
 }
 
-.contacts input:focus,
-.contacts textarea:focus {
+.Contacts input:focus, .Contacts textarea:focus {
     background: transparent;
     color: var(--primary-orange);
     border-bottom: 0.125rem solid var(--primary-dark-grey);
 }
 
-.contacts textarea {
+.Contacts textarea {
     height: 12.2rem !important;
 }
 
@@ -605,13 +607,13 @@ textarea.form-control {
 /*---------------- MEDIA -----------------------*/
 
 @media (max-width: 768px) {
-    .contacts {
+    .Contacts {
         overflow-x: hidden;
     }
-    .contacts .container {
+    .Contacts .container {
         padding: 0 1rem;
     }
-    .contacts p {
+    .Contacts p {
         padding: 0 0.4rem;
     }
 }
@@ -632,7 +634,7 @@ textarea.form-control {
 
 .footer a:hover {
     text-decoration: none;
-    color: var(--primary-orange);
+    color: var(--primary-blue);
     cursor: pointer;
 }
 

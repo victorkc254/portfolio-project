@@ -21,8 +21,7 @@ const portfolio = () => {
         />
         <p>
           Buy Synology NAS storage available at competitive price in Nairobi,
-          Kenya from synology dealers in Kenya. Buy G-naps, Asustors and Western
-          Digital at best
+          Kenya from synology dealers in Kenya.
         </p>
         <b>Website:</b>{" "}
         <a
@@ -55,7 +54,9 @@ const portfolio = () => {
           alt="Firewalls Kenya"
         />
         <p>
-          Firewalls Kenya is the leading firewall suppliers, Dealers, and reseller in Kenya. Buy Sophos Checkpoint Fortinet Cisco Barracuda Palo alto
+          Firewalls Kenya is the leading firewall suppliers, Dealers, and
+          reseller in Kenya. Buy Sophos Checkpoint Fortinet Cisco Barracuda Palo
+          alto
         </p>
         <b>Website:</b>{" "}
         <a
@@ -89,8 +90,7 @@ const portfolio = () => {
         />
         <p>
           Wodex Technologies is a trusted Sophos Firewalls dealer in Nairobi,
-          Kenya. We strive to ensure we sell and  supply Sophos Firewalls that are
-          of good quality and at incredibly good prices in Kenya.
+          Kenya.
         </p>
         <b>Website:</b>{" "}
         <a
@@ -107,7 +107,7 @@ const portfolio = () => {
   const popupboxConfigWodex = {
     titleBar: {
       enable: true,
-      text: "Wodex Kenya.",
+      text: "WEBSITE.",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -120,7 +120,9 @@ const portfolio = () => {
         <div className="image-box-wrapper">
           <div className="portfolio-image-box" onClick={openPopupboxSynology}>
             <img
-              className="portfolio-image" src={synology} alt="Synology Kenya"
+              className="portfolio-image"
+              src={synology}
+              alt="Synology Kenya"
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -147,7 +149,7 @@ const portfolio = () => {
       <PopupboxContainer {...popupboxConfigFirewalls} />
       <PopupboxContainer {...popupboxConfigWodex} />
     </div>
-  )
-}
+  );
+};
 
 export default portfolio;

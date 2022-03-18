@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm 6">
             <div className="d-flex">
-              <p> Nairobi Kenya st 2022 office #Q7</p>
+              <p> Nairobi Kenya 0708012900-00100 </p>
             </div>
             <div className="d-flex">
               <a href="tel:254708012900"> +254708012900</a>

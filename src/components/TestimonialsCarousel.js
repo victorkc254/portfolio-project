@@ -21,28 +21,53 @@ const TestimonialsCarousel = () => {
         <img src={avatar1} alt="John  Wodex " />
         <div className="myCarousel">
           <h3> John Wodex </h3>{" "}
-          <p> Lorem ipsum dolor sit amet, consectetur adip </p>
-        </div>
-      </>
-      <>
-        <img src={avatar2} alt="John  Wodex " />
-        <div className="myCarousel">
-          <h3> John Wodex </h3>{" "}
-          <p> Lorem ipsum dolor sit amet, consectetur adip </p>
-        </div>
-      </>
-      <>
-        <img src={avatar3} alt="John  Wodex " />
-        <div className="myCarousel">
-          <h3> John Wodex </h3>{" "}
-          <p> Lorem ipsum dolor sit amet, consectetur adip </p>
+          <p>
+            {" "}
+            Excellent, working with web designer express was great. Thanks to
+            his knowledge and determination our website looks great and
+            functions really good. I am recommend anyone that is looking for a
+            custom website to give him a call and speak to him, he will guide
+            you to the right direction.{" "}
+          </p>
         </div>
       </>
       <>
         <img src={avatar4} alt="John  Wodex " />
         <div className="myCarousel">
-          <h3> John Wodex </h3>{" "}
-          <p> Lorem ipsum dolor sit amet, consectetur adip </p>
+          <h3> Josphat Cheruiyot </h3>{" "}
+          <p>
+            {" "}
+            It was a pleasure working with victor. He pay attention to every
+            detail and were very accommodating with our web site. He went above
+            and beyond to make sure that the site was exactly what I had
+            envisioned. I would highly recommend victor to any one who is
+            looking for a professional web designer.{" "}
+          </p>
+        </div>
+      </>
+      <>
+        <img src={avatar3} alt="John  Wodex " />
+        <div className="myCarousel">
+          <h3> Daniel Mwangi </h3>{" "}
+          <p>
+            {" "}
+            The designer and developer is true professional. He understand your
+            vision and make it a reality. The layouts and designs are fantastic.
+            The best I have seen. I have nothing but praise and the highest
+            recommendation for him{" "}
+          </p>
+        </div>
+      </>
+      <>
+        <img src={avatar2} alt="John  Wodex " />
+        <div className="myCarousel">
+          <h3> Lin Naturals </h3>{" "}
+          <p>
+            {" "}
+            I want to thank Victor for doing a great job creating my
+            website. I personally endorse him to anymore seeking assistance
+            with creating a website.{" "}
+          </p>
         </div>
       </>
     </Carousel>
